@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Таблицы</string>
+    </property>
+    <addaction name="timetablesAction"/>
+    <addaction name="studentsAction"/>
+    <addaction name="teachersAction"/>
+    <addaction name="groupsAction"/>
+    <addaction name="audiencesAction"/>
+    <addaction name="subjectsAction"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="timetablesAction">
+   <property name="text">
+    <string>Расписание</string>
+   </property>
+  </action>
+  <action name="studentsAction">
+   <property name="text">
+    <string>Студенты</string>
+   </property>
+  </action>
+  <action name="teachersAction">
+   <property name="text">
+    <string>Преподаватели</string>
+   </property>
+  </action>
+  <action name="groupsAction">
+   <property name="text">
+    <string>Группы</string>
+   </property>
+  </action>
+  <action name="audiencesAction">
+   <property name="text">
+    <string>Аудитории</string>
+   </property>
+  </action>
+  <action name="subjectsAction">
+   <property name="text">
+    <string>Предметы</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

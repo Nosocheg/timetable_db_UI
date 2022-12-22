@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>coffee.qss</file>
+        <file>background.png</file>
+    </qresource>
+</RCC>
